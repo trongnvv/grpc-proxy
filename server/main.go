@@ -50,7 +50,7 @@ func (h *Handler) HandleConn(c context.Context, s stats.ConnStats) {
 
 // init your grpc server,like this:
 func main() {
-	lis, err := net.Listen("tcp", ":8000")
+	lis, err := net.Listen("tcp", ":8001")
 	if err != nil {
 		log.Fatalf("failed to listen: %v", err)
 	}
