@@ -21,7 +21,7 @@ type client struct {
 }
 
 var (
-	addr = flag.String("addr", "localhost:8000", "the address to connect to")
+	addr = flag.String("addr", "nginx:8000", "the address to connect to")
 	name = flag.String("name", defaultName, "Name to greet")
 )
 var a client
